@@ -1,0 +1,177 @@
+
+.glyph {   
+    image-resolution: 300dpi;
+    max-height: 600px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+body {
+    background:rgba(239, 65, 54, 1);
+    font-family: "brother-1816", sans-serif;
+}
+
+a { text-decoration: none; }   
+
+logo{
+    color: rgb(237,240,221);
+    position: fixed;
+    height: 100%;
+    margin-top: 28px;
+    margin-left: 30px;
+    line-height: 100%;
+    font-size: 40pt;
+    font-family: "Rozha One", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.current {
+    transform: translate(-20%);
+    text-transform: uppercase;
+
+}
+
+.menu {
+    padding-bottom: 100%;
+    font-weight: 10;
+    margin-left: 70%;
+    padding-top: 0%;
+    border-spacing: 0;
+    font-family: "Rozha One", serif;
+    font-style: normal;
+
+}
+
+.menu a {
+    color: rgb(237,240,221);
+    margin-top: -1px;
+    display:flex;
+    font-size: 25pt;
+    font-weight: 200;
+    font-style: normal;
+}
+
+h1{
+    color: rgba(237, 240, 221, 1);
+    font-family: "Rozha One", serif;
+    font-weight: 10;
+    margin-left:30px;
+    position: fixed;
+    font-size: 16pt;
+    margin-top:42.5%;
+
+}
+
+a:link,
+a:visited {
+    color:rgb(237,240,221);
+
+}
+
+.line {
+    color: rgb(237,240,221);
+    height:90vh;
+    width:0;
+    border-right:2px solid;
+    position:fixed;
+    top:5vh;
+    pointer-events:none;
+
+}
+
+.line1{ 
+    left:33.3333333333333%; }
+
+.line2{ 
+    left:66.666666%; }
+
+.right-text{
+    margin-bottom: 100px;
+    font-size: 12pt;
+    font-weight: normal;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.grid-container {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+
+.right {
+    padding:2em;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+}
+
+
+/*
+p
+h1
+h2
+h3
+image
+a
+ol
+ul
+li
+em
+body
+*/
+
+
+/* *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+background-color: blue;
+}
+
+.center{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100dvh;
+}
+
+.gymbud-intro{
+display: flex;
+align-items: center;
+justify-content: center;
+
+/* background-color: red; */
+/* background-size: 50%;
+background-repeat: no-repeat;
+background-position: center;
+width: 25vw;
+height: 100vh;
+transition: all 700ms ease;
+}
+#first
+{
+opacity: 1;
+}
+#second
+{
+opacity: 0;
+}
+#first:hover{
+opacity: 0;
+}
+#second:hover
+{
+opacity: 1;
+} */ 
